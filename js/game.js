@@ -17,8 +17,8 @@ pipeBottom.src = "img/pipeBottom.png";
 var fly = new Audio();
 var score_audio = new Audio();
 
-fly.src = "audio/fly.mp3";
-score_audio.src = "audio/score.mp3";
+fly.src = "audio/fly.ogg";
+score_audio.src = "audio/score.ogg";
 
 var gap = 150;
 
