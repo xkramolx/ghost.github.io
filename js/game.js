@@ -23,7 +23,8 @@ score_audio.src = "Audio/score.mp3";
 var gap = 150;
 
 // При нажатии на какую-либо кнопку
-document.addEventListener("keydown", moveUp);
+document.addEventListener("mousedown",moveUp);
+document.addEventListener("keydown",moveUp);
 
 function moveUp() {
  yPos -= 25;
@@ -80,8 +81,8 @@ function draw() {
  yPos += grav;
 
  ctx.fillStyle = "#f52578";
- ctx.font = "60px Verdana";
- ctx.fillText("Счет: " + score, 10, cvs.height - 60);
+ ctx.font = "30px Verdana";
+ ctx.fillText("хНЕЗАШКВАРх: " + score, 10, cvs.height - 60);
 
  requestAnimationFrame(draw);
 }
