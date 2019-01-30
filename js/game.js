@@ -81,7 +81,7 @@ function draw() {
  yPos += grav;
 
  ctx.fillStyle = "#f52578";
- ctx.font = "30px Verdana";
+ ctx.font = "27px Verdana";
  ctx.fillText("хНЕЗАШКВАРх: " + score, 10, cvs.height - 60);
 
  requestAnimationFrame(draw);
